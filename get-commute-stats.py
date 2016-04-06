@@ -11,8 +11,8 @@ import StringIO
 import requests
 from argparse import ArgumentParser
 
-from const import *
-
+URL = r'https://docs.google.com/spreadsheets/d/1aPCiRShrb15RzJIjZRCTgbgzs8uJd5Wwz7w6qtLEXCs/pub?output=csv'
+TOPIC_ARN = 'arn:aws:sns:us-east-1:<aws-account-id>:test-sms'
 
 def get_opts():
     """
